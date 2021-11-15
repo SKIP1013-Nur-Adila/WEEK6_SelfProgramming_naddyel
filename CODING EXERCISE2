@@ -1,0 +1,52 @@
+package selfLearning;
+import java.util.Scanner;
+public class Exercise3 {
+	public static void main(String[] args) {
+	
+	//Third
+	/*
+	Write a Java program that accepts two double variables 
+	and test if both strictly between 0 and 1 and false otherwise.
+	 */
+	
+	Scanner in = new Scanner(System.in);
+	 System.out.print("Input first number: ");
+     double n1 = in.nextDouble();
+     System.out.print("Input second number: ");
+     double n2 = in.nextDouble();
+	 System.out.println(n1 > 0 && n1 < 1 && n2 > 0 && n2 < 1);
+	 
+//FOURTH
+	 /*
+	   Write a Java program to print the contents of a two-dimensional Boolean array 
+	   where t will represent true and f will represent false.
+	 */
+	 boolean[][] array = {{true, false, true},
+			 {false, true, false}};
+	 	int rows_length = array.length;
+	 	int columns_length = array[0].length;
+
+	 	for (int i = 0; i < rows_length; i++) {
+	 		for (int j = 0; j < columns_length; j++) {
+
+		if (array[i][j]) {
+			System.out.print(" t ");
+		} else {
+			System.out.print(" f ");
+
+	 		System.out.println();
+	 		
+		}}}}}
+	 
+//FIFTH
+	 /*
+	   Write a Java program to print an array after changing the rows and columns
+	    of a given two-dimensional array
+	 */
+	 		
+	 		
+	 
+//SIXTH
+	 /*
+	   
+	 */
