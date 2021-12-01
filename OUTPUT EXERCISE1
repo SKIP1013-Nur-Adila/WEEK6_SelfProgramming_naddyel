@@ -1,0 +1,11 @@
+(101 + 0) / 3)= 33
+(3.0e-6 * 10000000.1)= 30.0000003
+(true && true)= true
+(false && true)= false
+((false && false) || (true && true))= true
+(false || false) && (true && true)= false
+Input first number: 4
+Input second number: 5
+Input third number: 5
+Input fourth number: 6
+Numbers are not equal!
